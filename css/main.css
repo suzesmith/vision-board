@@ -1,0 +1,73 @@
+body {
+  background: #E8E8E8;
+}
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  overflow: auto;
+  background: url('../img/background.png');
+  background-size: cover;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #3B3B3B;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+
+.block {
+  float: left;
+  box-sizing: border-box;
+  width: 400px;
+}
+
+.small-block {
+  height: 210px;
+  padding: 40px;
+  padding-top: 75px;
+}
+
+.large-block {
+  height: 430px;
+  padding: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.light-bg{
+  background: #FFFFFF;
+}
+
+.dark-bg{
+  background: #3B3B3B;
+}
+
+.highlight {
+  background: #FFF44F;
+  padding: 7px;
+}
+
+.title {
+  font-family: 'Permanent Marker', cursive;
+  color: #FFFFFF;
+  font-size: 38px;
+}
+
+.white {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+strong {
+  text-transform: none;
+  font-size: 38px;
+}
